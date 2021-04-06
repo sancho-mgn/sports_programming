@@ -1,8 +1,8 @@
 def odometer(oksana):
     dist = 0
-    for i in range(0, len(oksana), 2):
-        if i == 0:
-            dist += oksana[i] * oksana[i + 1]
+    for j in range(0, len(oksana), 2):
+        if j == 0:
+            dist += oksana[j] * oksana[j + 1]
         else:
-            dist += oksana[i] * (oksana[i + 1] - oksana[i - 1])
+            dist += oksana[j] * (oksana[j + 1] - oksana[j - 1])
     return dist
