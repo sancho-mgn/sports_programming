@@ -33,8 +33,8 @@ def ConquestCampaign (N, M, L, battalion):
     return day
 
 
-N = 3
-M = 4
-L = 3
-battalion = [2, 2, 2, 2, 3, 4]
-print(ConquestCampaign(N, M, L, battalion))
+#N = 3
+#M = 4
+#L = 3
+#battalion = [2, 2, 2, 2, 3, 4]
+#print(ConquestCampaign(N, M, L, battalion))
