@@ -1,20 +1,21 @@
-def SynchronizingTables(N, ids, salary):
-    ids_sort = ids.copy()
-    salary_sort = salary.copy()
-    new_salary = []
-    for i in range(N):
+def selection_sort(l):
+    n = len(l)
+    for i in range(n):
         low_index = i
-        for j in range(i + 1, N):
-            if ids[j] < ids[low_index]:
+        for j in range(i + 1, n):
+            if l[j] < l[low_index]:
                 low_index = j
-            if salary[j] < salary[low_index]:
-                low_index = j
-        ids[i], ids[low_index] = ids[low_index], ids[i]
-        salary[i], salary[low_index] = salary[low_index], salary[i]
+        l[i], l[low_index] = l[low_index], l[i]
+    return l
+
+def SynchronizingTables(N, ids, salary):
+    new_salary = []
+    ids_sort = selection_sort(ids.copy())
+    salary_sort = selection_sort(salary.copy())
     for i in range(N):
         for j in range(N):
             if ids[i] == ids_sort[j]:
                 new_salary.append(salary_sort[j])
     return new_salary
 
-#print(SynchronizingTables(3,[50,1,1024],[20,100,90]))
+#print(SynchronizingTables(7,[98,23,61,49,1,79,9],[1,15,32,47,68,39,24]))
