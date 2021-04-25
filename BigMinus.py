@@ -37,10 +37,9 @@ def BigMinus(s1, s2):
         s1_rev[i] = res[i]
 
     s1_rev = s1_rev[::-1]
-    return ''.join([str(i) for i in s1_rev])
+    return str(int(''.join([str(i) for i in s1_rev])))
 
-#s1 = '678'
-#s2 = '7820'
+#s1 = '1234567890'
+#s2 = '1234567890'
 #print(BigMinus(s1, s2))
 #print(isSmaller(s1, s2))
-#print(findDiff(s1, s2))
