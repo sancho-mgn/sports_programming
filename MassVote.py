@@ -11,6 +11,6 @@ def MassVote(N, Votes):
     return 'no winner'
 
 
-Votes = [5, 10, 10, 15, 60]
-N = 3
-print(MassVote(N, Votes))
+#Votes = [5, 10, 10, 15, 60]
+#N = 3
+#print(MassVote(N, Votes))
