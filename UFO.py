@@ -12,15 +12,15 @@ def UFO(N, data, octal):
         for i in data:
             notation = 8
             res.append(con_to_dec(i, notation))
-        return ','.join(str(i) for i in res)
+        return res
     else:
         for i in data:
             notation = 16
             res.append(con_to_dec(i, notation))
-        return ','.join(str(i) for i in res)
+        return res
 
 
 #N = 2
 #data = [1234, 1777]
-#octal = True
+#octal = False
 #print(UFO(N, data, octal))
