@@ -1,5 +1,5 @@
-def MatrixTurn(Matrix, M, N, T):
-    matrix = Matrix[:]
+def MatrixTurn(matrix, M, N, T):
+    global Matrix
     for i in range(len(matrix)):
         matrix[i] = list(matrix[i])
 
@@ -32,4 +32,9 @@ def MatrixTurn(Matrix, M, N, T):
 
     Matrix = matrix
     return Matrix
+
+x = MatrixTurn(['123456','234567','345678','456789'], 4,6,1)
+print(x)
+y = MatrixTurn(["123456", "234567", "345678", "456789"], 4,6, 3)
+print(y)
 
