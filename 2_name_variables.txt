@@ -1,0 +1,34 @@
+https://github.com/sancho-mgn/sports_programming/blob/main/BigMinus.py
+l_s1 - length_string_1
+// длина 1-ой строки
+
+l_s2 - length_string_2
+// длина 2-ой строки
+
+i - chars_in_string
+// символы строк
+
+res - result_intersection_strings
+// пересечение строка
+
+https://github.com/sancho-mgn/sports_programming/blob/main/Keymaker.py
+k_list  - list_first_step
+// список первого шага проверки
+
+https://github.com/sancho-mgn/sports_programming/blob/main/LineAnalysis.py
+main_dots - intermediate_dots
+// промежуточные точки
+
+https://github.com/sancho-mgn/sports_programming/blob/main/MassVote.py
+sum_votes - sum_voter_votes
+// сумма голосов избирателя
+max_votes - max_voter_votes
+// максимальное кол-во голосов избирателей
+cnt_max - num_cand_max_votes
+// количество кандидатов набравших максимальное количество голосов
+
+https://github.com/sancho-mgn/sports_programming/blob/main/SherlockValidString.py
+set_str - str_unique_elem
+// строка с уникальными элементами
+count_chars  - num_elem_each_uniq_elem
+// количество элементов каждого уникального элемента
